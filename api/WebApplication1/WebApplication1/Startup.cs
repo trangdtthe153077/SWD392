@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Serialization;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
+using WebApplication1.IRepository;
+using WebApplication1.Repository;
 
 namespace WebApplication1
 {
@@ -32,7 +34,7 @@ namespace WebApplication1
             {
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
-
+            services.AddScoped<ICourseRepository, CourseRepository>();
 
             //JSON Serializer
             services.AddControllersWithViews().AddNewtonsoftJson(options =>

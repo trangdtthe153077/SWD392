@@ -10,8 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="IRepository\" />
-    <Folder Include="Repository\" />
     <Folder Include="Photos\" />
   </ItemGroup>
 

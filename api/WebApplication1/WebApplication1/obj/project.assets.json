@@ -702,11 +702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\ReactJS-NetCoreWebAPI-MSSQL-main\\api\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\SWD392\\api\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\ReactJS-NetCoreWebAPI-MSSQL-main\\api\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\SWD392\\api\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\ReactJS-NetCoreWebAPI-MSSQL-main\\api\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\SWD392\\api\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HiZq3lTtuHdQ2LnlcK8FO4tW0QgAUybeplUsl+mJyICB1AWTo2XVxdaqCmCwIeW2UL5L5V2B/iKCZwVpoJHj4A==",
+  "dgSpecHash": "ho/jh/WU7mZuvO3aWdmcHvIGrSWbCQ08Lr0MQyf5x7B2Iag1Tt4GEHbo0U+WadQFIGwJp5EzPnTzNtCpgnLhNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\ReactJS-NetCoreWebAPI-MSSQL-main\\api\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\Kì 7 Spring 2023\\SWD392\\SWD392\\api\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.16\\microsoft.aspnetcore.jsonpatch.3.1.16.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.16\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.16.nupkg.sha512",
