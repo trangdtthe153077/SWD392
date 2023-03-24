@@ -35,6 +35,7 @@ namespace WebApplication1
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
             services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<IBlogRepository, BlogRepository>();
 
             //JSON Serializer
             services.AddControllersWithViews().AddNewtonsoftJson(options =>
@@ -43,6 +44,8 @@ namespace WebApplication1
                 = new DefaultContractResolver());
 
             services.AddControllers();
+            services.AddSwaggerGen();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,8 +56,18 @@ namespace WebApplication1
 
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+          app.UseDeveloperExceptionPage();
+          
+           
             }
+
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.)
+            app.UseSwaggerUI( c=>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+            });
 
             app.UseRouting();
 
@@ -64,7 +77,7 @@ namespace WebApplication1
             {
                 endpoints.MapControllers();
             });
-
+            
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(

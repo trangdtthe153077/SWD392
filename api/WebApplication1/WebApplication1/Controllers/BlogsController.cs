@@ -14,11 +14,11 @@ namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CourseController : ControllerBase
+    public class BlogsController : ControllerBase
     {
 
-        private readonly ICourseRepository _repository;
-        public CourseController(ICourseRepository repository)
+        private readonly IBlogRepository _repository;
+        public BlogsController(IBlogRepository repository)
         {
             _repository = repository;
         }
@@ -32,12 +32,12 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public JsonResult Post(Course course)
+        public JsonResult Post(Blog course)
         {
             return _repository.Post(course);
         }
         [HttpPut]
-        public JsonResult Put(Course course)
+        public JsonResult Put(Blog course)
         {
             return _repository.Put(course);
         }
